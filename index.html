@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BuddyPartner - Play & Connect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    body {
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #1E1738 0%, #0D0A1A 100%);
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+    }
+    .logo-card {
+      width: 110px;
+      height: 110px;
+      margin: 0 auto 24px;
+      border-radius: 28px;
+      background: linear-gradient(135deg, #8B7CF6 0%, #E8A9E0 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 16px 36px rgba(139, 124, 246, 0.35);
+    }
+    .logo-card svg {
+      width: 58px;
+      height: 58px;
+      fill: #ffffff;
+    }
+    h1 {
+      font-size: 48px;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, #ffffff 0%, #D8B4FE 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      font-size: 18px;
+      color: #A19EBB;
+      line-height: 1.6;
+      margin-bottom: 32px;
+      font-weight: 400;
+    }
+    .play-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: #ffffff;
+      color: #000000;
+      padding: 14px 28px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      box-shadow: 0 10px 24px rgba(255, 255, 255, 0.15);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .play-badge:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 30px rgba(255, 255, 255, 0.25);
+    }
+    .play-badge svg {
+      width: 24px;
+      height: 24px;
+    }
+    footer {
+      width: 100%;
+      max-width: 800px;
+      text-align: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 24px;
+      margin-top: 40px;
+    }
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+    .links a {
+      color: #A19EBB;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+    .links a:hover {
+      color: #8B7CF6;
+    }
+    .company {
+      color: #6B6888;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo-card">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+      </svg>
+    </div>
+    <h1>BuddyPartner</h1>
+    <p class="subtitle">
+      Connect, chat, and enjoy real-time 1-on-1 voice & video calls with genuine people.
+    </p>
+    <a href="https://play.google.com/store/apps/details?id=com.buddypartner.app" class="play-badge" target="_blank">
+      <svg viewBox="0 0 24 24">
+        <path fill="#000" d="M3.6 1.48c-.28.3-.44.75-.44 1.34v18.36c0 .59.16 1.04.44 1.34l.07.07 10.28-10.28v-.24L3.67 1.41l-.07.07zm14.39 10.74l-3.32-3.32-3.08 3.08 3.08 3.08 3.32-3.32c.57-.32.95-.88.95-1.52s-.38-1.2-.95-1.52zm-12.75 8.9l11.45-6.61-2.92-2.92-8.53 9.53zm0-18.24l8.53 9.53 2.92-2.92-11.45-6.61z"/>
+      </svg>
+      Get it on Google Play
+    </a>
+  </div>
+
+  <footer>
+    <div class="links">
+      <a href="https://appquires-ctrl.github.io/BuddyPartnerAPK/buddypartner-legal.html#privacy" target="_blank">Privacy Policy</a>
+      <a href="https://appquires-ctrl.github.io/BuddyPartnerAPK/buddypartner-legal.html#terms" target="_blank">Terms of Service</a>
+      <a href="https://appquires-ctrl.github.io/BuddyPartnerAPK/buddypartner-legal.html#refund" target="_blank">Refund Policy</a>
+      <a href="mailto:support@buddypartner.in">Contact Us</a>
+    </div>
+    <p class="company">
+      &copy; 2026 BuddyPartner. Operated by Appquires Global LLP.<br>
+      Support: support@buddypartner.in
+    </p>
+  </footer>
+</body>
+</html>
